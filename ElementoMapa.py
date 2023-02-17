@@ -1,10 +1,11 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-class ElementoMapa:
-    def __init__(self):
-        pass
+from abc import ABC, abstractmethod
 
+class ElementoMapa(ABC):
+
+    @abstractmethod
     def entrar(self, ):
         pass
 
